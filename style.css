@@ -16,7 +16,7 @@ html {
 /*$ ------------------ */
 /*$ ------------------ */
 ::-webkit-scrollbar {
-  display: none; /* width of the entire scrollbar */
+  display: initial; /* width of the entire scrollbar */
 }
 ::-webkit-scrollbar-track {
   background: black; /* color of the tracking area */

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>practice</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+  />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./one-piece-font/info.txt" />
     <link rel="stylesheet" href="./one-piece-font/OnePiece-zAqL.ttf" />
@@ -13,521 +17,499 @@
       href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap"
       rel="stylesheet"
     />
-    <script defer src="./index.js"></script>
+    
   </head>
   <body>
-    
-    <div class="container">
-      <!-- @ background mai blur image lagane kai lia 1.relative aur  dsora absolute kai div bnae hai -->
-      <div class="container-img-01">
-        <!-- @ yai absolute wala hai -->
-        <div class="container-img">
-          <div class="main-img">
-            <nav class="main-nav">
-              <img
-                class="logo"
-                src="./Anime-Logo-PNG-HD-Image.png"
-                alt="logo"
-              />
+    <div id="main">
+      <div class="container">
+        <!-- @ background mai blur image lagane kai lia 1.relative aur  dsora absolute kai div bnae hai -->
+        <div class="container-img-01">
+          <!-- @ yai absolute wala hai -->
+          <div class="container-img">
+            <div class="main-img" data-scroll data-scroll-speed="3">
+              <nav class="main-nav">
+                <img
+                  class="logo"
+                  src="./Anime-Logo-PNG-HD-Image.png"
+                  alt="logo"
+                />
 
-              <div class="shift">
-                <ul class="">
-                  <li><a href="menu.html">Menu</a></li>
-                  <li><a href="#">Movies</a></li>
-                  <li><a href="#">TV Series</a></li>
-                  <li><a href="#">Most Popular</a></li>
-                  <li><a href="#">Top Airing</a></li>
-                  <!-- <div class="dot"></div> -->
-                </ul>
+                <div class="shift">
+                  <ul class="">
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV Series</a></li>
+                    <li><a href="#">Most Popular</a></li>
+                    <li><a href="#">Top Airing</a></li>
+                    <!-- <div class="dot"></div> -->
+                  </ul>
+                </div>
+
+                <button class="btn">Sign in</button>
+              </nav>
+
+              <!--# -------------------- -->
+              <!--! -------------------- -->
+
+              <div class="hero-sec">
+                <h1>One Piece</h1>
+
+                <p>
+                  If You Don’t Take Risks, You Can’t <br />
+                  Create A Future
+                </p>
+                <form class="hero-sea">
+                  <input type="text" placeholder="search anime" /><button>
+                    Search
+                  </button>
+                </form>
               </div>
-
-              <button class="btn">Sign in</button>
-            </nav>
-
-            <!--# -------------------- -->
-            <!--! -------------------- -->
-
-            <div class="hero-sec">
-              <h1>One Piece</h1>
-              
-              <p>
-                If You Don’t Take Risks, You Can’t <br />
-                Create A Future
-              </p>
-              <form class="hero-sea">
-                <input type="text" placeholder="search anime" /><button>
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </div>
       </div>
+      <!--# -------------------- -->
+      <!--! -------------------- -->
+      <!--! -------------------- -->
+      <!--# -------------------- -->
+
+      <section class="sec-1">
+        <div class="sec-main">
+          <h1>Let anime fuel your imagination.</h1>
+          <p>
+            The power of imagination is the ability to <span>create </span>your
+            own future and the <span> power </span>to create your own flow of
+            time.
+          </p>
+        </div>
+        <div class="sec-img">
+          <img src="./wanko.jpg" alt="" />
+        </div>
+      </section>
+      <!--! --------------------------- -->
+      <!--@ --------------------------- -->
+      <!--& --------------------------- -->
+      <!--@ --------------------------- -->
+      <section class="middle-sec">
+        <!--# ---- -->
+        <!-- @ background mai blur image lagane kai lia 1.relative aur  dsora absolute kai div bnae hai -->
+        <div  class="middle-sec-main-img-01">
+          <!-- @ aur yai absolute wala div hai -->
+          <div  class="middle-sec-main-img">
+            <div  class="middle-sec-img" data-scroll data-scroll-speed="2">
+              <div  class="middle-sec-div">
+                <img id="first-img" src="./image.png" alt="" />
+                <img id="sec-img" src="./images/02.jpeg" alt="" />
+              </div>
+              <div class="middle-sec-text">
+                <h4>coming Soon!</h4>
+                <!--# -------------- -->
+                <!--@ COUNTDOWN ---- -->
+                <div class="countdown">
+                  <ul>
+                    <li>
+                      <h5 id="days"></h5>
+                      <p>Days</p>
+                    </li>
+                    <li>
+                      <h5 id="hours"></h5>
+                      <p>Hrs</p>
+                    </li>
+                    <li>
+                      <h5 id="minutes"></h5>
+                      <p>Min</p>
+                    </li>
+                    <li>
+                      <h5 id="seconds"></h5>
+                      <p>Sec</p>
+                    </li>
+                  </ul>
+                </div>
+                <!--# -------------- -->
+                <h1></h1>
+                <p class="middle-sec-text-para">
+                  “Don’t ever pry into my life ever again. I’m kind of mad.”<br />
+                  Satou Matsuzaka
+                </p>
+                <!--# -------------- -->
+                <div class="middle-sec-rating">
+                  <p>Action | 2021 | EP-24|⭐ 8.5</p>
+                </div>
+                <!--# -------------- -->
+                <p class="middle-sec-ch">characters</p>
+                <!--# -------------- -->
+                <div class="middle-sec-ch-name">
+                  <ul class="ch-names">
+                    <li><a id="makima" href="#">makima</a></li>
+                    <li><a id="denji" href="#">denji</a></li>
+                    <li><a id="pochita" href="#">pochita</a></li>
+                    <li><a id="power" href="#">power</a></li>
+                    <li><a id="himeno" href="#">himeno</a></li>
+                    <li><a id="Aki-Hayakawa" href="#">Aki Hayakawa</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--! --------------------------- -->
+      <!--@ --------------------------- -->
+      <!--& --------------------------- -->
+      <!--@ --------------------------- -->
+
+      <section class="sec-2">
+        <div class="sec-2-div">
+          <!--! --------------------------- -->
+          <!--$ 1--------------- -->
+
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img
+                  src="./img/desktop-wallpaper-pin-by-william-santos-on-one-piece-one-piece-iphone-cool-anime-one-piece.jpg"
+                  class="cover-image"
+                />
+              </div>
+              <img src="./img/one-piece-logo.png" class="title" />
+              <img src="./img/pngwing.com.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 2--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/force-mage"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/FateSN-Heaven3_001.jpg" class="cover-image" />
+              </div>
+              <img src="./img/logo.png" class="title" />
+              <img
+                src="./img/Fate stay night - Tohsaka Rin Render 10 [MG Renders].png"
+                class="character"
+              />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 3--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img
+                  src="./img/Darling-in-the-Franxx.Sony-Xperia-Z-wallpaper-1080x1920.jpg"
+                  class="cover-image"
+                />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/180-1805033_zero-two-png.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 4--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/force-mage"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/zoro-bg.jpg" class="cover-image" />
+              </div>
+              <img src="./img/one-piece-logo.png" class="title" />
+              <img src="./img/zoro.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$  5--------------- -->
+
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/evergarden-bg.jpg" class="cover-image" />
+              </div>
+              <img src="./" class="title" />
+              <img src="./img/evergarden.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 6--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/force-mage"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/gojo-bg.jpg" class="cover-image" />
+              </div>
+              <img src="./img/logo.png" class="title" />
+              <img src="./img/Gojo-Satoru-PNG.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 7--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-3.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img
+                src="./img/darling-in-the-franxx-zero-two-png-3388.png"
+                class="character"
+              />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 8--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-2.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/8.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 9--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-8.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/9.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 10--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-16.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/10.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 11--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-5.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/11.png" class="character" />
+            </div>
+          </a>
+          <!--$ 12--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-6.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/12.png" class="character" />
+            </div>
+          </a>
+          <!--$ 13--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-14.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/13.png" class="character" />
+            </div>
+          </a>
+          <!--$ 14--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img
+                  src="./img/img/bg-17.jpg_optimize=medium&bg-color=255,255,255&fit=bounds&height=897&width=960&canvas=960_897"
+                  class="cover-image"
+                />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/15.png" class="character" />
+            </div>
+          </a>
+          <!--$ 15--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-7.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/18.png" class="character" />
+            </div>
+          </a>
+          <!--$ 16--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-19.jpeg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/16.png" class="character" />
+            </div>
+          </a>
+          <!--$ 17--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/the-dark-rider"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="./img/img/bg-1.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
+                class="title"
+              />
+              <img src="./img/Gojo-PNG-Isolated-File.png" class="character" />
+            </div>
+          </a>
+          <!--! --------------------------- -->
+          <!--$ 8--------------- -->
+          <a
+            class="sec-2-a"
+            href="https://www.mythrillfiction.com/force-mage"
+            alt="Mythrill"
+            target="_blank"
+          >
+            <div class="card">
+              <div class="wrapper">
+                <img src="img/elite-bg.jpg" class="cover-image" />
+              </div>
+              <img
+                src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png"
+                class="title"
+              />
+              <img src="./img/elite.png" class="character" />
+            </div>
+          </a>
+        </div>
+      </section>
     </div>
-    <!--# -------------------- -->
-    <!--! -------------------- -->
-    <!--! -------------------- -->
-    <!--# -------------------- -->
-
-    <section class="sec-1">
-      <div class="sec-main">
-        <h1>Let anime fuel your imagination.</h1>
-        <p>
-          The power of imagination is the ability to <span>create </span>your
-          own future and the <span> power </span>to create your own flow of
-          time.
-        </p>
-      </div>
-      <div class="sec-img">
-        <img src="./wanko.jpg" alt="" />
-      </div>
-    </section>
-    <!--! --------------------------- -->
-    <!--@ --------------------------- -->
-    <!--& --------------------------- -->
-    <!--@ --------------------------- -->
-    <section class="middle-sec">
-      <!--# ---- -->
-      <!-- @ background mai blur image lagane kai lia 1.relative aur  dsora absolute kai div bnae hai -->
-      <div class="middle-sec-main-img-01">
-        <!-- @ aur yai absolute wala div hai -->
-        <div class="middle-sec-main-img">
-          <div class="middle-sec-img">
-            <div class="middle-sec-div">
-              <img id="first-img" src="./image.png" alt="" />
-              <img id="sec-img" src="./images/02.jpeg" alt="" />
-            </div>
-            <div class="middle-sec-text">
-              <h4>coming Soon!</h4>
-              <!--# -------------- -->
-              <!--@ COUNTDOWN ---- -->
-              <div class="countdown">
-                <ul>
-                  <li>
-                    <h5 id="days"></h5>
-                    <p>Days</p>
-                  </li>
-                  <li>
-                    <h5 id="hours"></h5>
-                    <p>Hrs</p>
-                  </li>
-                  <li>
-                    <h5 id="minutes"></h5>
-                    <p>Min</p>
-                  </li>
-                  <li>
-                    <h5 id="seconds"></h5>
-                    <p>Sec</p>
-                  </li>
-                </ul>
-              </div>
-              <!--# -------------- -->
-              <h1></h1>
-              <p class="middle-sec-text-para">
-                “Don’t ever pry into my life ever again. I’m kind of mad.”<br />
-                Satou Matsuzaka
-              </p>
-              <!--# -------------- -->
-              <div class="middle-sec-rating">
-                <p>Action | 2021 | EP-24|⭐ 8.5</p>
-              </div>
-              <!--# -------------- -->
-              <p class="middle-sec-ch">characters</p>
-              <!--# -------------- -->
-              <div class="middle-sec-ch-name">
-                <ul class="ch-names">
-                  <li><a id="makima" href="#">makima</a></li>
-                  <li><a id="denji" href="#">denji</a></li>
-                  <li><a id="pochita" href="#">pochita</a></li>
-                  <li><a id="power" href="#">power</a></li>
-                  <li><a id="himeno" href="#">himeno</a></li>
-                  <li><a id="Aki-Hayakawa" href="#">Aki Hayakawa</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--! --------------------------- -->
-    <!--@ --------------------------- -->
-    <!--& --------------------------- -->
-    <!--@ --------------------------- -->
-
-    <section class="sec-2">
-      <div class="sec-2-div">
-        <!--! --------------------------- -->
-        <!--$ 1--------------- -->
-
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/desktop-wallpaper-pin-by-william-santos-on-one-piece-one-piece-iphone-cool-anime-one-piece.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img src="./img/one-piece-logo.png" class="title" />
-            <img src="./img/pngwing.com.png" class="character" />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$ 2--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/force-mage"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img src="./img/FateSN-Heaven3_001.jpg" class="cover-image" />
-            </div>
-            <img src="./img/logo.png" class="title" />
-            <img
-              src="./img/Fate stay night - Tohsaka Rin Render 10 [MG Renders].png"
-              class="character"
-            />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$ 3--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/Darling-in-the-Franxx.Sony-Xperia-Z-wallpaper-1080x1920.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/180-1805033_zero-two-png.png" class="character" />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$ 4--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/force-mage"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img src="./img/zoro-bg.jpg" class="cover-image" />
-            </div>
-            <img src="./img/one-piece-logo.png" class="title" />
-            <img src="./img/zoro.png" class="character" />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$  5--------------- -->
-
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img src="./img/evergarden-bg.jpg" class="cover-image" />
-            </div>
-            <img src="./" class="title" />
-            <img src="./img/evergarden.png" class="character" />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$ 6--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/force-mage"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img src="./img/gojo-bg.jpg" class="cover-image" />
-            </div>
-            <img src="./img/logo.png" class="title" />
-            <img src="./img/Gojo-Satoru-PNG.png" class="character" />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$ 7--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-3.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/darling-in-the-franxx-zero-two-png-3388.png" class="character" />
-          </div>
-        </a>
-                <!--! --------------------------- -->
-        <!--$ 8--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-2.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/8.png" class="character" />
-          </div>
-        </a>
-                <!--! --------------------------- -->
-        <!--$ 9--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-8.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/9.png" class="character" />
-          </div>
-        </a>
-                <!--! --------------------------- -->
-        <!--$ 10--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-16.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/10.png" class="character" />
-          </div>
-        </a>
-                <!--! --------------------------- -->
-        <!--$ 11--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-5.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/11.png" class="character" />
-          </div>
-        </a>
-        <!--$ 12--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-6.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/12.png" class="character" />
-          </div>
-        </a>
-        <!--$ 13--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-14.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/13.png" class="character" />
-          </div>
-        </a>
-        <!--$ 14--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-17.jpg_optimize=medium&bg-color=255,255,255&fit=bounds&height=897&width=960&canvas=960_897"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/15.png" class="character" />
-          </div>
-        </a>
-        <!--$ 15--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-7.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/18.png" class="character" />
-          </div>
-        </a>
-        <!--$ 16--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-19.jpeg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/16.png" class="character" />
-          </div>
-        </a>
-        <!--$ 17--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/the-dark-rider"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img
-                src="./img/img/bg-1.jpg"
-                class="cover-image"
-              />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png"
-              class="title"
-            />
-            <img src="./img/Gojo-PNG-Isolated-File.png" class="character" />
-          </div>
-        </a>
-        <!--! --------------------------- -->
-        <!--$ 8--------------- -->
-        <a
-          class="sec-2-a"
-          href="https://www.mythrillfiction.com/force-mage"
-          alt="Mythrill"
-          target="_blank"
-        >
-          <div class="card">
-            <div class="wrapper">
-              <img src="img/elite-bg.jpg" class="cover-image" />
-            </div>
-            <img
-              src="https://ggayane.github.io/css-experiments/cards/force_mage-title.png"
-              class="title"
-            />
-            <img src="./img/elite.png" class="character" />
-          </div>
-        </a>
-      </div>
-    </section>
     <!--! -------------------- -->
     <!--! -------------------- -->
     <!--! -------------------- -->
     <!--! -------------------- -->
     <!--! -------------------- -->
     <!--! -------------------- -->
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./index.js"></script>
   </body>
 </html>
